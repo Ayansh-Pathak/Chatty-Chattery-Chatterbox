@@ -131,3 +131,33 @@ You're about to initialize a Firebase project in this directory:
 [info] +  Wrote functions/tsconfig.json 
 [info] +  Wrote functions/src/index.ts 
 [info] +  Wrote functions/.gitignore 
+[info] 
+=== Hosting Setup
+[debug] [2026-11-05T11:55:29.808Z] Checked if tokens are valid: true, expires at: 1793882348236
+[debug] [2026-11-05T11:55:29.809Z] Checked if tokens are valid: true, expires at: 1793882348236
+[debug] [2026-11-05T11:55:29.811Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/chatty-chattery-chatterbox [none]
+[debug] [2026-11-05T11:55:30.485Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/chatty-chattery-chatterbox 200
+[debug] [2026-11-05T11:55:30.485Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/chatty-chattery-chatterbox {"projectId":"chatty-chattery-chatterbox","projectNumber":"346650651352","displayName":"Chatterbox","name":"projects/chatty-chattery-chatterbox","resources":{"hostingSite":"chatty-chattery-chatterbox"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_5c74c2b5-0807-403d-bed1-dac87f9e9d59"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\alok4\AndroidStudioProjects\ChattyChatterChatterbox is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=169120346&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2026-11-05T12:16:55.227Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2026-11-05T12:16:55.230Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2026-11-05T12:16:55.821Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2026-11-05T12:16:55.822Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2026-11-05T12:16:55.844Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2026-11-05T12:16:56.391Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2026-11-05T12:16:56.391Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Ayansh-Pathak","id":320847035,"node_id":"U_kgDOEx-8uw","avatar_url":"https://avatars.githubusercontent.com/u/320847035?v=4","gravatar_id":"","url":"https://api.github.com/users/Ayansh-Pathak","html_url":"https://github.com/Ayansh-Pathak","followers_url":"https://api.github.com/users/Ayansh-Pathak/followers","following_url":"https://api.github.com/users/Ayansh-Pathak/following{/other_user}","gists_url":"https://api.github.com/users/Ayansh-Pathak/gists{/gist_id}","starred_url":"https://api.github.com/users/Ayansh-Pathak/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Ayansh-Pathak/subscriptions","organizations_url":"https://api.github.com/users/Ayansh-Pathak/orgs","repos_url":"https://api.github.com/users/Ayansh-Pathak/repos","events_url":"https://api.github.com/users/Ayansh-Pathak/events{/privacy}","received_events_url":"https://api.github.com/users/Ayansh-Pathak/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":2,"public_gists":0,"followers":0,"following":0,"created_at":"2026-08-25T03:54:22Z","updated_at":"2026-10-28T07:41:14Z","private_gists":0,"total_private_repos":1,"owned_private_repos":1,"disk_usage":76102,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Ayansh-Pathak 
+[info] 
