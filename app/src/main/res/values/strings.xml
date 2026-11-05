@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Comms Engine</string>
+
+    <string name="agora_app_id">YOUR_AGORA_APP_ID_HERE</string>
+</resources>
